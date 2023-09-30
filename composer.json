@@ -1,5 +1,6 @@
 {
     "name": "webmozart/assert",
+    "type": "library",
     "description": "Assertions to validate method input/output with nice error messages.",
     "license": "MIT",
     "keywords": [
@@ -13,8 +14,13 @@
             "email": "bschussek@gmail.com"
         }
     ],
+    "config": {
+        "platform": {
+            "php": "7.2.99"
+        }
+    },
     "require": {
-        "php": "^7.2 || ^8.0",
+        "php": "^7.2 || ~8.0 || ~8.1 || ~8.2 || ~8.3",
         "ext-ctype": "*"
     },
     "require-dev": {
